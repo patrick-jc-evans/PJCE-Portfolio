@@ -8,6 +8,8 @@ export default function Home() {
             <Header />
             <h1>Projects</h1>
             <InfoCard />
+            <InfoCard />
+            <InfoCard />
         </body>
     )
 }
