@@ -9,18 +9,11 @@
         U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-text {
-    font-family: "Anonymous Pro";
-}
-
-h1 {
-    font-family: "Anonymous Pro";
-}
-
 body {
     margin: 0;
 }
 
 html {
     background-color: #e2ebea;
+    font-family: "Anonymous Pro";
 }

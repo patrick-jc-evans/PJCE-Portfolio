@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <text id="pjce">Patrick-jc-Evans</text>
             <br />
-            <text id="dev">JavaScript Developer.</text>
+            <text id="dev">Junior JavaScript Developer.</text>
         </header>
     )
 }

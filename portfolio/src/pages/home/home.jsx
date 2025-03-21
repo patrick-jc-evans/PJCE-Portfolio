@@ -1,11 +1,13 @@
 import "./home.css"
 import Header from "../../components/header/header"
+import InfoCard from "../../components/infoCard/infoCard"
 
 export default function Home() {
     return (
         <body>
             <Header />
-            <h1 id="projects">Projects</h1>
+            <h1>Projects</h1>
+            <InfoCard />
         </body>
     )
 }

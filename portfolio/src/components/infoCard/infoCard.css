@@ -1,0 +1,76 @@
+.infoCard {
+    display: grid;
+    height: 18rem;
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    grid-template-columns: 20% 12rem 12rem auto;
+    grid-template-rows: 20% 65% 15%;
+}
+
+h2 {
+    margin-top: 1rem;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+p {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 700;
+    color: #00eeff;
+    background-color: #202020;
+}
+
+a:hover {
+    background-color: #303030;
+}
+
+.fe {
+    grid-row: 3;
+    grid-column: 2;
+    padding-left: 1rem;
+    padding-top: 0.8rem;
+    padding-right: 0;
+}
+
+.be {
+    grid-row: 3;
+    grid-column: 3;
+    padding-top: 0.8rem;
+}
+
+#showcaseImage {
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: aqua;
+}
+
+#githubDiv {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: #202020;
+    text-align: right;
+}
+
+#githubLogo {
+    height: 100%;
+    width: 2.5rem;
+    background-color: #202020;
+    margin-right: 0.5rem;
+}
