@@ -1,27 +1,24 @@
 import "./infoCard.css"
 import githubIcon from "../../assets/githubLogo.svg"
 
-export default function InfoCard({
-    imgURL,
-    title,
-    shortDescription,
-    githubFrontendLink,
-    githubBackendLink,
-}) {
+export default function InfoCard({ imgLocation, projectInfo }) {
     // Testing Information
 
-    title = "ANEW"
-
-    shortDescription =
-        "A full stack project completed while at Northcoders, Anew is an imaginary news website where users can perform all the actions that you would expect of a typical news websites. This includes browsing articles, posting/deleting comments and voting on articles."
-
-    githubFrontendLink =
-        "https://github.com/patrick-jc-evans/PJCE-NC-News-Frontend"
-    githubBackendLink = "https://github.com/patrick-jc-evans/PJCE-NC-News"
+    const {
+        title,
+        shortDescription,
+        githubFrontendLink,
+        githubBackendLink,
+        imgBackgroundColor,
+    } = projectInfo
 
     return (
         <div className="infoCard">
-            <img id="showcaseImage" src={imgURL} />
+            <img
+                id="showcaseImage"
+                src={imgLocation}
+                style={{ backgroundColor: imgBackgroundColor }}
+            />
             <h2>{title}</h2>
             <p>{shortDescription}</p>
             <a className="fe" href={githubFrontendLink}>
