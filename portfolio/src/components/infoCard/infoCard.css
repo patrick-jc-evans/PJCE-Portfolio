@@ -30,8 +30,6 @@ a {
     text-decoration: none;
     padding: 1rem;
     font-weight: 700;
-    color: #00eeff;
-    background-color: #202020;
 }
 
 a:hover {
@@ -44,12 +42,23 @@ a:hover {
     padding-left: 1rem;
     padding-top: 0.8rem;
     padding-right: 0;
+    color: #00eeff;
+    background-color: #202020;
+}
+
+.fe:hover {
+    background-color: #303030;
 }
 
 .be {
     grid-row: 3;
     grid-column: 3;
     padding-top: 0.8rem;
+    color: #00eeff;
+    background-color: #202020;
+}
+
+.be:hover {
 }
 
 #showcaseImage {

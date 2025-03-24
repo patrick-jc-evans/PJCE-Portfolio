@@ -21,12 +21,20 @@ export default function InfoCard({ imgLocation, projectInfo }) {
             />
             <h2>{title}</h2>
             <p>{shortDescription}</p>
-            <a className="fe" href={githubFrontendLink}>
-                Frontend Repository
-            </a>
-            <a className="be" href={githubBackendLink}>
-                Backend Repository
-            </a>
+            {githubFrontendLink ? (
+                <a className="fe" href={githubFrontendLink}>
+                    Frontend Repository
+                </a>
+            ) : (
+                <></>
+            )}
+            {githubBackendLink ? (
+                <a className="be" href={githubBackendLink}>
+                    Backend Repository
+                </a>
+            ) : (
+                <div className="be" />
+            )}
             <div id="githubDiv">
                 <img id="githubLogo" src={githubIcon} />
             </div>
