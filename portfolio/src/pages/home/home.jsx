@@ -10,13 +10,12 @@ import portfolioLogo from "../../assets/githubLogo.svg"
 
 export default function Home() {
     return (
-        <body>
-            <Header />
+        <>
             <h1>Projects</h1>
             <InfoCard projectInfo={plantzoneInfo} imgLocation={plantzoneLogo} />
             <InfoCard projectInfo={anewInfo} imgLocation={anewLogo} />
 
             <InfoCard projectInfo={portfolioInfo} imgLocation={portfolioLogo} />
-        </body>
+        </>
     )
 }
