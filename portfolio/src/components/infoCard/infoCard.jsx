@@ -19,7 +19,9 @@ export default function InfoCard({ imgLocation, projectInfo }) {
                 src={imgLocation}
                 style={{ backgroundColor: imgBackgroundColor }}
             />
-            <h2>{title}</h2>
+            <a href={"/" + title.toLowerCase()} className="title">
+                {title}
+            </a>
             <p>{shortDescription}</p>
             {githubFrontendLink ? (
                 <a className="fe" href={githubFrontendLink}>

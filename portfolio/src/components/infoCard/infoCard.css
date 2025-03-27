@@ -12,12 +12,18 @@
         grid-template-rows: 20% 65% 15%;
     }
 
-    h2 {
-        margin-top: 1rem;
+    a {
+        color: black;
+    }
+
+    .title {
         grid-column: 2;
         grid-row: 1;
         font-size: 2rem;
+        padding: 0px;
+        margin: 0px;
         margin-left: 1rem;
+        margin-top: 1rem;
     }
 
     p {
@@ -96,7 +102,7 @@
         grid-template-rows: 35% 2.2rem auto 3rem;
     }
 
-    h2 {
+    .title {
         margin-top: 1rem;
         grid-column: 1;
         grid-row: 2;
