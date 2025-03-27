@@ -45,6 +45,11 @@ export default function Portfolio() {
                     Github Repository
                 </a>
             </section>
+            <section className="links-section">
+                <a href="/" className="back">
+                    Back to Home
+                </a>
+            </section>
         </>
     )
 }

@@ -63,6 +63,11 @@ export default function PlantZone() {
                     Backend Repository
                 </a>
             </section>
+            <section className="links-section">
+                <a href="/" className="back">
+                    Back to Home
+                </a>
+            </section>
         </>
     )
 }

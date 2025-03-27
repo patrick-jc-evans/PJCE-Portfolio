@@ -73,6 +73,11 @@ export default function Anew() {
                     Backend Repository
                 </a>
             </section>
+            <section className="links-section">
+                <a href="/" className="back">
+                    Back to Home
+                </a>
+            </section>
         </>
     )
 }
