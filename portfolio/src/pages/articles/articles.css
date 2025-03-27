@@ -35,7 +35,8 @@
 
     .article-image {
         display: block;
-        width: 400px;
+        max-height: 20rem;
+        max-width: 75%;
         margin: 1rem;
         margin-left: auto;
         margin-right: auto;

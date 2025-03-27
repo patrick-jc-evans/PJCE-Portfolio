@@ -6,6 +6,7 @@ import Header from "./components/header/header"
 import Home from "./pages/home/home"
 import Anew from "./pages/articles/anew/anew"
 import PlantZone from "./pages/articles/plantzone/plantzone"
+import Portfolio from "./pages/articles/portfolio/portfolio"
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/home" element={<Home />} />
                 <Route path="/anew" element={<Anew />} />
                 <Route path="/plantzone" element={<PlantZone />} />
+                <Route path="/portfolio" element={<Portfolio />} />
             </Routes>
         </div>
     )
