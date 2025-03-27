@@ -63,9 +63,15 @@ export default function Anew() {
                 long loading times when the site is first accessed.
             </p>
             <section className="links-section">
-                <a href="https://anew-pjce.netlify.app/">Anew Website</a>
-                <a href={anewDetails.githubFrontendLink}>Frontend Repository</a>
-                <a href={anewDetails.githubBackendLink}>Backend Repository</a>
+                <a href="https://anew-pjce.netlify.app/" className="links">
+                    Anew Website
+                </a>
+                <a href={anewDetails.githubFrontendLink} className="links">
+                    Frontend Repository
+                </a>
+                <a href={anewDetails.githubBackendLink} className="links">
+                    Backend Repository
+                </a>
             </section>
         </>
     )

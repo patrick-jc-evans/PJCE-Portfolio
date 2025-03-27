@@ -17,6 +17,8 @@
     }
 
     .title {
+        font-weight: 700;
+        font-style: normal;
         grid-column: 2;
         grid-row: 1;
         font-size: 2rem;
@@ -26,7 +28,13 @@
         margin-top: 1rem;
     }
 
-    p {
+    .title:hover {
+        background-color: #ffffff;
+        color: #00eeff;
+    }
+
+    .description {
+        width: auto;
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 2;
@@ -110,7 +118,7 @@
         margin-left: 1rem;
     }
 
-    p {
+    .description {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row: 3;

@@ -22,7 +22,7 @@ export default function InfoCard({ imgLocation, projectInfo }) {
             <a href={"/" + title.toLowerCase()} className="title">
                 {title}
             </a>
-            <p>{shortDescription}</p>
+            <p className="description">{shortDescription}</p>
             {githubFrontendLink ? (
                 <a className="fe" href={githubFrontendLink}>
                     Frontend Repository
