@@ -1,7 +1,7 @@
 import "../articles.css"
 import plantzoneImage from "../../../assets/plantzoneLogo.svg"
 import plantzoneDetails from "../../../projectDetails/plantzone.js"
-import pzWireframe from "../../../assets/pzWireFrame.png"
+import pzWireframe from "../../../assets/plantzoneWireframe.png"
 
 export default function PlantZone() {
     return (
