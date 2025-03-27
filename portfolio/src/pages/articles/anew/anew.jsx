@@ -15,8 +15,8 @@ export default function Anew() {
             <h2>Backend</h2>
             <p>
                 The backend of the project provides a series of api endpoints
-                connected to a database. This allows for access for simple
-                requests such as getting a list of users to more complex
+                connected to a PostgreSQL database. This allows for access for
+                simple requests such as getting a list of users to more complex
                 requests such as a list of articles sorted by how many comments
                 they have. Every endpoint was tested thoroughly using SuperTest
                 and Jest, meaning that triggering an error is unlikely. <br />
