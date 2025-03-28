@@ -20,6 +20,14 @@
         margin: 0;
         margin-left: 15%;
     }
+
+    #header-link {
+        padding: 0;
+    }
+
+    #header-link:hover {
+        background-color: #202020;
+    }
 }
 
 @media all and (max-width: 700px) {
