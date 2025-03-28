@@ -1,5 +1,5 @@
 import "../articles.css"
-import portfolioImage from "../../../assets/githubLogo.svg"
+import portfolioImage from "../../../assets/portfolioLogo.svg"
 import portfolioDetails from "../../../projectDetails/portfolio.js"
 import portfolioWireframe from "../../../assets/portfolioWireframe.png"
 
