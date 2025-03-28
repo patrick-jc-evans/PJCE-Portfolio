@@ -9,6 +9,7 @@ export default function Portfolio() {
             <h1 className="page-title">Portfolio Website</h1>
             <img
                 className="upper-image"
+                alt="Portfolio Logo"
                 src={portfolioImage}
                 style={{ backgroundColor: portfolioDetails.imgBackgroundColor }}
             />
@@ -26,7 +27,11 @@ export default function Portfolio() {
                 this. For this I created two different wireframes for the site,
                 tracking how different components would need to be repositioned
                 upon switching from desktop to mobile view.
-                <img src={portfolioWireframe} className="article-image" />
+                <img
+                    src={portfolioWireframe}
+                    alt="Wireframe for the portfolio website."
+                    className="article-image"
+                />
                 Rather than being developed as mobile first or desktop first,
                 both were done in sync as to avoid any unexpected issues later
                 in development.

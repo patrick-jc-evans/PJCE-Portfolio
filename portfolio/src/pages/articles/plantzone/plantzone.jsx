@@ -9,6 +9,7 @@ export default function PlantZone() {
             <h1 className="page-title">PlantZone</h1>
             <img
                 className="upper-image"
+                alt="PlantZone Logo"
                 src={plantzoneImage}
                 style={{ backgroundColor: plantzoneDetails.imgBackgroundColor }}
             />
@@ -27,7 +28,11 @@ export default function PlantZone() {
                 frontend, creating wireframes in figma to not only plan
                 functionality of the app, but to design the standard page
                 layout.
-                <img src={pzWireframe} className="article-image" />
+                <img
+                    src={pzWireframe}
+                    alt="Wireframe for PlantZone"
+                    className="article-image"
+                />
                 Part of the wireframe is shown above. A challenge for me was
                 considering how users hold a phone, and where buttons would be
                 most useful. This is why the back button is found in the footer

@@ -9,6 +9,7 @@ export default function Anew() {
             <h1 className="page-title">Anew</h1>
             <img
                 className="upper-image"
+                alt="Anew Logo"
                 src={anewImage}
                 style={{ backgroundColor: anewDetails.imgBackgroundColor }}
             />
@@ -42,7 +43,11 @@ export default function Anew() {
                 have largely followed this mentality, with my portfolio site
                 being built in the same way as a way to improve my knowledge of
                 CSS. <br />
-                <img src={articlesSS} className="article-image" />
+                <img
+                    src={articlesSS}
+                    alt="Screenshots of Anew pages"
+                    className="article-image"
+                />
                 The frontend has ways of handling all possible api responses,
                 including loading messages and 404 responses. The most complex
                 integration between the frontend user experience and backend api

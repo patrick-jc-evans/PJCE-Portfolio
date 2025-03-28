@@ -17,6 +17,7 @@ export default function InfoCard({ imgLocation, projectInfo }) {
             <img
                 id="showcaseImage"
                 src={imgLocation}
+                alt={title + " logo"}
                 style={{ backgroundColor: imgBackgroundColor }}
             />
             <a href={"/" + title.toLowerCase()} className="title">
@@ -38,7 +39,7 @@ export default function InfoCard({ imgLocation, projectInfo }) {
                 <div className="be" />
             )}
             <div id="githubDiv">
-                <img id="githubLogo" src={githubIcon} />
+                <img id="githubLogo" alt="GitHub Logo" src={githubIcon} />
             </div>
         </div>
     )
