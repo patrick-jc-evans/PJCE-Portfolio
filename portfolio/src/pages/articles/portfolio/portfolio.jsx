@@ -36,10 +36,17 @@ export default function Portfolio() {
                 both were done in sync as to avoid any unexpected issues later
                 in development.
             </p>
-            {/* <h2>Accessibility</h2>
+            <h2>Accessibility</h2>
             <p>
-
-            </p> */}
+                This website has been built with accessibility in mind and
+                tested accordingly. HTML tags follow a logical structure,
+                colours have been picked to avoid any contrast and images all
+                have alternative text. Accessibility has been tested using WAVE
+                (web accessibility evaluation tool) which showed no errors or
+                alerts. The site was also tested with Lighthouse from the google
+                chrome dev tools, which on both desktop and mobile scored 100
+                for accessibility.
+            </p>
             <h2>Links</h2>
             <p>
                 Don't really need a link to the website for this one - you're
