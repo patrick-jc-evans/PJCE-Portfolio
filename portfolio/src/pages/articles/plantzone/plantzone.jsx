@@ -50,9 +50,10 @@ export default function PlantZone() {
                 <br />
                 <br />
                 Another challenge for this project was developing for both IOS
-                and android, and all the slightly different behaviours they
+                and Android, and all the slightly different behaviours they
                 carried. Although the design looks good on both, there are some
-                inconsistencies due to the
+                inconsistencies due to the different ways that IOS and Android
+                handle styling.
             </p>
             <h2>Links</h2>
             <p>
