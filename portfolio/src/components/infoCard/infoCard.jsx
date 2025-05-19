@@ -29,7 +29,7 @@ export default function InfoCard({ imgLocation, projectInfo }) {
                     Frontend Repository
                 </a>
             ) : (
-                <></>
+                <div className="fe" />
             )}
             {githubBackendLink ? (
                 <a className="be" href={githubBackendLink}>
