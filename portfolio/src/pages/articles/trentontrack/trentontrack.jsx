@@ -33,6 +33,11 @@ export default function TrentonTrack() {
                 until the actual event was about 8 months, by far the longest I
                 have worked on a single project.
                 <br />
+                <img
+                    src="/totPhotos/tot_production_team.jpg"
+                    className="article-image"
+                    alt="The Trent-on-Track production team, photo taken after the event."
+                />
                 <br />
                 The total number of people involved in the project would grow
                 further from the intial 3 of us, ending up with around 25-30
@@ -46,12 +51,20 @@ export default function TrentonTrack() {
                 It's not often that graphic design requires anything wider than
                 16:9, but the venue gave me a truly ludicrous set of screen to
                 design for, including a back wall stretching across the entire
-                venue, with a resolution of 7680x1080. Figuring out how to
-                design something that looks good when displayed at the width of
-                a room was a challenge, but a lot of fun. I poured countless
-                hours into the graphics package for the venue, and when I saw it
-                for the first time full size the day before the event I could
-                not have been happier with how it looked.
+                venue, with a resolution of 7680x1080.
+                <br />
+                <img
+                    src="/totPhotos/tot_graphics_showcase.jpg"
+                    className="article-image"
+                    alt="Image of the stage area at Trent on Track, taken during Wholes vs Moonveil."
+                />
+                <br />
+                Figuring out how to design something that looks good when
+                displayed at the width of a room was a challenge, but a lot of
+                fun. I poured countless hours into the graphics package for the
+                venue, and when I saw it for the first time full size the day
+                before the event I could not have been happier with how it
+                looked.
             </p>
             <h2>Code!</h2>
             <p>
@@ -66,6 +79,11 @@ export default function TrentonTrack() {
                 of once match would move them into the correct part of the
                 bracket for the next stage.
                 <br />
+                <img
+                    src="/totPhotos/tot_bracket.jpg"
+                    className="article-image"
+                    alt="Screenshot of the bracket website filled in with the final results."
+                />
                 <br />
                 The site is hosted at{" "}
                 <a
@@ -88,7 +106,7 @@ export default function TrentonTrack() {
                 <a href="https://x.com/doomject" className="links-basic">
                     @doomject
                 </a>{" "}
-                for all photos
+                for all photos!
             </p>
             <section className="links-section">
                 <a href="/" className="back">
