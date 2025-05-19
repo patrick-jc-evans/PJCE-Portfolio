@@ -55,7 +55,7 @@ export default function TrentonTrack() {
                 <img
                     src="/totPhotos/tot_graphics_showcase.jpg"
                     className="article-image"
-                    alt="Image of the stage area at Trent on Track, taken during Wholes vs Moonveil."
+                    alt="Stage area at Trent on Track, taken during Wholes vs Moonveil."
                 />
                 Figuring out how to design something that looks good when
                 displayed at the width of a room was a challenge, but a lot of
