@@ -19,7 +19,8 @@
     .title {
         font-weight: 700;
         font-style: normal;
-        grid-column: 2;
+        grid-column-start: 2;
+        grid-column-end: 5;
         grid-row: 1;
         font-size: 2rem;
         padding: 0px;
@@ -112,7 +113,8 @@
 
     .title {
         margin-top: 1rem;
-        grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
         grid-row: 2;
         font-size: 1.7rem;
         margin-left: 1rem;

@@ -7,6 +7,7 @@ import Home from "./pages/home/home"
 import Anew from "./pages/articles/anew/anew"
 import PlantZone from "./pages/articles/plantzone/plantzone"
 import Portfolio from "./pages/articles/portfolio/portfolio"
+import TrentonTrack from "./pages/articles/trentontrack/trentontrack"
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/anew" element={<Anew />} />
                 <Route path="/plantzone" element={<PlantZone />} />
                 <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/trent-on-track" element={<TrentonTrack />} />
             </Routes>
         </div>
     )
