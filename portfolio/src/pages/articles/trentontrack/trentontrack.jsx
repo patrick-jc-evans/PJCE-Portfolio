@@ -8,7 +8,7 @@ export default function TrentonTrack() {
             <h1 className="page-title">Trent-on-Track</h1>
             <img
                 className="upper-image"
-                alt="PlantZone Logo"
+                alt="Trent-on-Track Logo"
                 src={totLogo}
                 style={{ backgroundColor: totDetails.imgBackgroundColor }}
             />
@@ -38,7 +38,6 @@ export default function TrentonTrack() {
                     className="article-image"
                     alt="The Trent-on-Track production team, photo taken after the event."
                 />
-                <br />
                 The total number of people involved in the project would grow
                 further from the intial 3 of us, ending up with around 25-30
                 people contributing total by the time of the event. Although I
@@ -58,7 +57,6 @@ export default function TrentonTrack() {
                     className="article-image"
                     alt="Image of the stage area at Trent on Track, taken during Wholes vs Moonveil."
                 />
-                <br />
                 Figuring out how to design something that looks good when
                 displayed at the width of a room was a challenge, but a lot of
                 fun. I poured countless hours into the graphics package for the
@@ -84,7 +82,6 @@ export default function TrentonTrack() {
                     className="article-image"
                     alt="Screenshot of the bracket website filled in with the final results."
                 />
-                <br />
                 The site is hosted at{" "}
                 <a
                     href="https://padsters-beautiful-brackets.netlify.app/"
