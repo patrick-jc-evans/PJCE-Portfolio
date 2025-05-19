@@ -103,8 +103,45 @@ export default function TrentonTrack() {
                 <a href="https://x.com/doomject" className="links-basic">
                     @doomject
                 </a>{" "}
-                for all photos!
+                for all photos.
             </p>
+            <section style={{ textAlign: "center" }}>
+                <img
+                    src="/totPhotos/tot_gallery1.jpg"
+                    className="tot-gallery"
+                    alt="Orion and Padster01 (myself) commentating the event"
+                />
+                <img
+                    src="/totPhotos/tot_gallery2.jpg"
+                    className="tot-gallery"
+                    alt="Over shoulder image of Killian competing for split"
+                />
+                <img
+                    src="/totPhotos/tot_gallery3.jpg"
+                    className="tot-gallery"
+                    alt="Padste01 (myself) and Motosonic view through the screen on a camera"
+                />
+                <img
+                    src="/totPhotos/tot_gallery4.jpg"
+                    className="tot-gallery"
+                    alt="Victorious team Geese Can Fly lift trophies following the final"
+                />
+                <img
+                    src="/totPhotos/tot_gallery5.jpg"
+                    className="tot-gallery"
+                    alt="Moonveil players celebrate a round win"
+                />
+                <img
+                    src="/totPhotos/tot_gallery6.jpg"
+                    className="tot-gallery"
+                    alt="Side shot across the stage, showing Wholes in the foreground and Moonveil in the background"
+                />
+                <img
+                    src="/totPhotos/tot_gallery7.jpg"
+                    className="tot-gallery"
+                    alt="Black and White image of NuaLaoch and Orion commentating"
+                />
+            </section>
             <section className="links-section">
                 <a href="/" className="back">
                     Back to Home
