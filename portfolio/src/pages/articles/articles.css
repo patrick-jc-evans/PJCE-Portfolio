@@ -30,6 +30,17 @@
         color: navy;
     }
 
+    .links-basic {
+        font-weight: 400;
+        color: navy;
+        padding: 0px;
+    }
+
+    .links-basic:hover {
+        color: #00eeff;
+        background-color: #ffffff00;
+    }
+
     .links:hover {
         color: #ffffff;
     }

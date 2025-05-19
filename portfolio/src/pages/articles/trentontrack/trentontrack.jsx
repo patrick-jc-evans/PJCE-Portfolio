@@ -67,17 +67,29 @@ export default function TrentonTrack() {
                 bracket for the next stage.
                 <br />
                 <br />
-                The site is hosted at
-                https://padsters-beautiful-brackets.netlify.app/, and you can
-                enter a winner by simply clicking on the yellow box next to a
-                team name, and typing "3" to mark the winner as matches were
-                best of 5. Given the site was built specifically for use by a
-                production team, it has a few issues such a clearing results. In
-                the future I'd like to adapt this project to be useable for more
-                competitions which I am involved in production for.
+                The site is hosted at{" "}
+                <a
+                    href="https://padsters-beautiful-brackets.netlify.app/"
+                    className="links-basic"
+                >
+                    https://padsters-beautiful-brackets.netlify.app/
+                </a>
+                , and you can enter a winner by simply clicking on the yellow
+                box next to a team name, and typing "3" to mark the winner as
+                matches were best of 5. Given the site was built specifically
+                for use by a production team, it has a few issues such a
+                clearing results. In the future I'd like to adapt this project
+                to be useable for more competitions which I am involved in
+                production for.
             </p>
             <h2>Gallery</h2>
-            <p>Credit to @doomject for all photos</p>
+            <p>
+                Credit to{" "}
+                <a href="https://x.com/doomject" className="links-basic">
+                    @doomject
+                </a>{" "}
+                for all photos
+            </p>
             <section className="links-section">
                 <a href="/" className="back">
                     Back to Home
