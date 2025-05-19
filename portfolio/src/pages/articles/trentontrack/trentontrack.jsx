@@ -142,7 +142,7 @@ export default function TrentonTrack() {
                     alt="Black and White image of NuaLaoch and Orion commentating"
                 />
             </section>
-            <section className="links-section">
+            <section className="links-section" style={{ marginTop: "2rem" }}>
                 <a href="/" className="back">
                     Back to Home
                 </a>
